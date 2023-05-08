@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+.start {
+    width: 100%;
+    position: fixed;
+    background-color: #e89898;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.start ul {
+
+    display: flex;
+}
+.start li{
+    font-size: 25px;
+    list-style: none;
+}
+.start  ul li a{
+     text-decoration: none;
+     padding: 20px;
+
+ }
+.start ul li a:hover{
+   color: chocolate;
+
+}
+.middle{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #111ade;
+    font-size: 30px;
+    display: flex;
+    background-size: cover;
+    background: url("https://images.unsplash.com/photo-1581881067989-7e3eaf45f4f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80");
+}
+.final{
+    background-color: lightgreen;
+
+    font-size: 35px;
+
+}.text{
+     font-family: "Matura MT Script Capitals";
+    margin-top: 50px;
+ }
+.start.active  {
+    background-color: black;
+}
+.start.active ul li a{
+   color: #9f63ab;
+}
